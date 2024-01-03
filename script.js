@@ -1,7 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
    
-    const destinations = document.querySelectorAll("#destinations .destination");
+    const destinations = document.querySelectorAll("destinations .destination");
 
     destinations.forEach(destination => {
         destination.addEventListener("click", function () {
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     
-    const featuredDestinations = document.querySelectorAll("#featured .featured-destination");
+    const featuredDestinations = document.querySelectorAll("featured .featured-destination");
 
     featuredDestinations.forEach(destination => {
         destination.addEventListener("click", function () {
